@@ -7,7 +7,8 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3001',
-    'https://mealmind-blue.vercel.app'
+    'https://mealmind-blue.vercel.app',
+    'https://mealmind-zei5.vercel.app'
   ],
   credentials: true
 }));
